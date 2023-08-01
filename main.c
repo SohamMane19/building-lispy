@@ -4,14 +4,15 @@ static char input[2048];
 
 int main(int argc,char** argv)
 {
-	puts("2023 Developed by Soham Mane\nLispy Version 0.0.0.0.1");
-	puts("Press Ctrl+c to Exit\n");
-
+	puts("2023 Developed by Soham Mane");
+	puts("LispScript Version 0.0.1");
+	puts("Press Ctrl+c to Exit");
+	puts("############################\n");
 	while(1)
 	{
-		fputs("lispy>>",stdout);
+		fputs("LispScript>>",stdout);
 		fgets(input,2048,stdin);
-		printf("No your are a %s\n",input);
+		printf("You entered %s\n",input);
 	}
 	return 0;
 }
