@@ -1,3 +1,3 @@
-main: main.c
-	gcc -Wall main.c -o main
-	main
+parsing: parsing.c
+	gcc -Wall parsing.c mpc.c -o parsing
+	parsing
